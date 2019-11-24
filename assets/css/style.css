@@ -171,8 +171,8 @@ form {
 
 table#social {
     border-collapse: separate;
-    border-spacing: 15px 2px;
-    /*float: right;*/
+    border-spacing: 10px 1px;
+    float: left;
 }
 
 
