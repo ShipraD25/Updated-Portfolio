@@ -78,7 +78,7 @@ body {
     clear: both;
     /*margin-top: 50px;*/
     overflow-y: auto;
-    padding-top: 30px;
+    padding-top: 20px;
     /*margin-bottom: 60px;*/
 }
 
@@ -176,6 +176,11 @@ table#social {
     border-collapse: separate;
     border-spacing: 10px 1px;
     float: left;
+}
+
+.secondary-btn {
+    background-color: cornflowerblue;
+    font-size: 20px;
 }
 
 
