@@ -16,4 +16,4 @@ This page is fully responsive.
 
 ## portfolio-page
 
-![Portfolio-page](https://shiprad25.github.io/Updated-Portfolio/)
+[Portfolio-page](https://shiprad25.github.io/Updated-Portfolio/)
