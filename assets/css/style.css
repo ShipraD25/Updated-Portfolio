@@ -1,27 +1,3 @@
-/*#wrapper {
-    background-color: #212931;
-    background-image: url("../images/overlay.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/bg.jpg");
-    background-size: auto, auto, 100% auto;
-    background-position: center, center, top center;
-    background-repeat: repeat, no-repeat, no-repeat;
-    background-attachment: fixed, fixed, fixed;
-}
-
-#wrapper.fade-in:before {
-    display: none;
-}
-
-#intro h1 {
-    font-size: 5em;
-    line-height: 1;
-    color: #ffffff;
-}
-
-#intro {
-    cursor: default;
-    text-align: center;
-}*/
-
 .jumbotron {
     background: none;
 }
@@ -42,7 +18,6 @@ body {
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 18px;
     line-height: 25px;
-    /*color: #777777;*/
     background: url("../images/greek-vase.png");
 }
 
@@ -53,7 +28,6 @@ body {
 .navbar-brand {
     border: 5px;
     padding: 20px;
-    /*background-color: #4aaaa5;*/
     font-weight: 700;
     font-size: 30px;
     margin-left: 80px;
@@ -76,10 +50,8 @@ body {
     width: 100%;
     margin: 0 auto;
     clear: both;
-    /*margin-top: 50px;*/
     overflow-y: auto;
     padding-top: 20px;
-    /*margin-bottom: 60px;*/
 }
 
 h1 {
@@ -98,15 +70,6 @@ h1 {
     margin: 5px 15px 5px 0px;
     float: left;
 }
-
-
-/*.col-sm {
-    width: 100%;
-    border: 0 none;
-    opacity: 0.8;
-    margin: 20px;
-}
-*/
 
 .img-responsive {
     position: relative;
@@ -137,34 +100,16 @@ h5 {
 #footer {
     bottom: 0;
     width: 100%;
-    /*position: absolute;*/
     height: 80px;
     background-color: black;
     border: 4px solid;
-    /*border-top-color: #4aaaa5;
-    /*text-align: center;*/
     padding-top: 30px;
     padding-bottom: 0;
-    /*position: fixed;*/
 }
 
 p {
     font-size: 18px;
 }
-
-
-/*   padding: 10px;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}*/
-
-
-/*#text-left {
-    float: left;
-}*/
 
 form {
     padding-left: 10%;
@@ -182,8 +127,3 @@ table#social {
     background-color: cornflowerblue;
     font-size: 20px;
 }
-
-
-/*.container {
-    padding-bottom: 30px;
-}*/
