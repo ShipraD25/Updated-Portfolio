@@ -13,10 +13,6 @@ This page is fully responsive.
 * Css 
 
 
-## code snippet
-```jquery
-```
-
 
 ## portfolio-page
 
