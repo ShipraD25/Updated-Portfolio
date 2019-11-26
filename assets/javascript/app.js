@@ -5,19 +5,16 @@ $(document).ready(function() {
         var email = $("#ExampleInputemail").val();
         var message = $("#exampleFormControlTextarea1").val();
         console.log(name, email, message);
-        if (!name.value || !email.value || !message.value) {
-            // alert.error("Please fill the form");
+        if (name === "" || email === "" || message === "") {
+            console.log("It was empty");
             return false;
         } else {
-            return true;
+            console.log("It worked!");
             // window.location.href = "mailto:user@example.com?subject=Subject&body=message%20goes%20here"
             window.location.href = "mailto:drshipradyundi@gmail.com?" + "subject=" + name + "&body=" + message;
-            //sendmail();
-            //FormData.reset();
+
         }
     });
 
-    //function sendMail() {
-    //  var link = "mailto:drshipradyundi@gmail.com?" + "&subject=" + name + "&body=" + message;;
-    // }
+
 });
