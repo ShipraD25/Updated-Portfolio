@@ -8,13 +8,14 @@ $(document).ready(function() {
             alert.error("Please fill the form");
             return false;
         } else {
+            return true;
             event.preventDefault();
-            sendMail();
+            sendmail();
+            //FormData.reset();
         }
     });
 
     function sendMail() {
-        var link = "mailto:drshipradyundi@gmail.com?" + "&subject=" + name + "&body=" + message;
-        window.location.href = link
+        var link = "mailto:drshipradyundi@gmail.com?" + "&subject=" + name + "&body=" + message;;
     }
 });
