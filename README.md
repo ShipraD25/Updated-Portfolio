@@ -19,4 +19,4 @@ This page is fully responsive.
 [Portfolio-page](https://shiprad25.github.io/Updated-Portfolio/)
 
 ## portfolio-gif
-(https://media.giphy.com/media/RlYL03MQ316s3xCkWu/giphy.gif)
+![portfolio Demo1](https://media.giphy.com/media/RlYL03MQ316s3xCkWu/giphy.gif)
